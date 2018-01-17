@@ -1,0 +1,19 @@
+{
+  "name": "chasesinclair.com",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@wanderio/new-relic-react": "^1.0.5",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "aws s3 cp build s3://$BUCKET_NAME --recursive",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
