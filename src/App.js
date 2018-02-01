@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Navigation from './components/Navigation';
-import Carousel from './components/Carousel';
+import Navigation from './components/Navigation/Navigation';
+import Main from './components/Main/Main';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         <Navigation />
-        <Carousel />
+        <Main />
       </div>
     );
   }

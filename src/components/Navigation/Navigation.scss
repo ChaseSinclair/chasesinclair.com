@@ -1,0 +1,44 @@
+.App-logo {
+  width: 40px !important;
+  height: 40px !important;
+}
+.header-cont {
+  box-sizing: border-box;
+  color: black;
+  display: block;
+  font-size: 17px;
+  font-weight: 400;
+  height: 0;
+  line-height: 24px;
+  text-align: center;
+  z-index: 1;
+}
+.nav-cont {
+  background-color: rgb(40, 44, 52);
+  color: black;
+  display: table-cell;
+  flex-direction: column;
+  font-size: 16px;
+  font-weight: 400;
+  height: 46px;
+  left: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 0;
+  padding-bottom: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+.navbar-brandz {
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  font-size: 32px;
+  line-height: 24px;
+  margin-right: 16px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  text-align: center;
+  text-decoration: none !important;
+}
