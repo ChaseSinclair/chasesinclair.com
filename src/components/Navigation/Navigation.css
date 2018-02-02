@@ -1,6 +1,13 @@
-.App-logo {
+.nav-logo {
+  animation: nav-logo-spin infinite 20s linear;
   width: 40px !important;
   height: 40px !important; }
+
+@keyframes nav-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 
 .header-cont {
   box-sizing: border-box;

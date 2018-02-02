@@ -12,7 +12,7 @@ class Navigation extends Component {
     return (
       <div className={cx('header-cont')}>
         <nav className={cx('nav-cont')}>
-          <img src={react} className={cx('App-logo')} alt="react" />
+          <img src={react} className={cx('nav-logo')} alt="react" />
           <Link to="/" className={cx('navbar-brandz')}>
             CHASE SINCLAIR
           </Link>
