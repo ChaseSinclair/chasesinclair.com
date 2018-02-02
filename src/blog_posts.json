@@ -1,0 +1,26 @@
+[
+{
+  "image": "https://s3.amazonaws.com/chasesinclair.com/images/react-logo.png",
+  "headline": "React",
+  "subhead": "React allows developers to create large web-applications that use data and can change over time without reloading the page.",
+  "abstract": "React allows developers to create large web-applications that use data and can change over time without reloading the page.",
+  "id": "react",
+  "date": "Friday, February 2, 2018"
+},
+{
+  "image": "https://s3.amazonaws.com/chasesinclair.com/images/newrelic-logo.png",
+  "headline": "New Relic",
+  "subhead": "New Relic monitors Web and mobile applications in real-time with support for custom-built plugins to collect arbitrary data.",
+  "abstract": "New Relic monitors Web and mobile applications in real-time with support for custom-built plugins to collect arbitrary data.",
+  "id": "new_relic",
+  "date": "Thursday, February 1, 2018"
+},
+{
+  "image": "https://s3.amazonaws.com/chasesinclair.com/images/aws-logo.png",
+  "headline": "Amazon Web Services",
+  "subhead": "Amazon Web Services provides on-demand cloud computing platforms such as S3 and Cloudfront Distributions.",
+  "abstract": "Amazon Web Services provides on-demand cloud computing platforms such as S3 and Cloudfront Distributions.",
+  "id": "aws",
+  "date": "Wednesday, January 31, 2018"
+}
+]
