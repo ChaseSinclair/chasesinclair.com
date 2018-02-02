@@ -4,12 +4,12 @@
   min-width: 300px;
   margin-left: 5px;
   margin-right: 5px;
+  margin-top: 5px;
   margin-bottom: 5px;
   background-color: white;
   border-width: 1px;
-  flex-direction: column;
-  position: relative;
-  text-align: center;
+  display: inline-flex;
+  height: 355px;
 }
 .card-title {
   font-size: 20px;
@@ -27,13 +27,13 @@
   padding-right: 10px;
 }
 .card-image {
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
   display: block;
   height: 240px;
   object-fit: cover;
   width: 100%;
 }
 .card-vertical-image {
-  flex-basis: 10rem;
   overflow-y: hidden;
-  position: relative;
 }

@@ -3,9 +3,13 @@ import Card from '../Card/Card';
 import react_logo from '../../images/react-logo.png';
 import new_relic_logo from '../../images/newrelic-logo.png';
 import aws_logo from '../../images/aws-logo.png';
+import classNames from 'classnames/bind';
+import styles from './Home.css';
+
+const cx = classNames.bind(styles);
 
 const Home = () => (
-  <div className='blog-content-list'>
+  <div className={cx('blog-content-list')}>
     <Card
       image={react_logo}
       headline='React'
