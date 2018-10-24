@@ -3,7 +3,7 @@ title: Stuff
 menuTitle: Stuff
 ---
 
-[Stuff](http:/chasesinclair.com) is a blog I have just launched.
+[Stuff](http://chasesinclair.com) is a blog I have just launched.
 
 It will be a home for all instruction and tutorial articles relating to my GatsbyJS starters. The dominant subject areas will be of course GatsbyJS but also ReactJS, EcmaScript 2015+ and CSS in JS.
 
