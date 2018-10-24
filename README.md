@@ -1,9 +1,11 @@
-# Run Local
+# Personal blog
+
+## Run Local
 ```
-npm start
+gatsby develop
 ```
 
-# Deploy Site
+## Create Static Site Ready to Host (/public)
 ```
-BUCKET_NAME='<BUCKET_NAME>' npm run deploy
+gatsby build
 ```
